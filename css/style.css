@@ -1,0 +1,151 @@
+body {
+  font: 15px sans-serif;
+  margin: inherit;
+}
+
+#malware-vis{
+  background-color: #293950;
+  color: #ecf0f0;
+  font-size: 50px;
+  height: 70px;
+  padding: 20px;
+  margin: 0px;
+}
+.d3-slider{
+  margin: 25px;
+  width: 700px;
+  /*float: right;*/
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+.axis text {
+	font-family: sans-serif;
+	font-size: 11px;
+}
+#tooltip{
+                
+	background-color: black;
+	font-family: sans-serif;
+	font-size: 11px;
+	color: whitesmoke;
+	border: solid 1px #000;
+	width: 100px;
+	display: none;
+	position: absolute;
+}
+
+#behaviour-chart-container {
+  height: 700px;
+  width: 1215px;
+  border:1px solid #000;
+  overflow: scroll;
+  float:left;
+  margin: 15px;
+  padding: 15px;
+ }
+
+ #bar-chart-container {
+  height: 160px;
+  width: 400px;
+  border:1px solid #000;
+  overflow: scroll;
+  float:right;
+  margin: 15px;
+  padding: 15px;
+ }
+
+ #thread-chart-container {
+  height: 700px;
+  width: 1200px;
+  border:1px solid #000;
+  overflow: scroll;
+  margin: 15px;
+  padding: 15px;
+  /*float:right;*/
+ }
+
+ .process {
+    fill: #EFC94C ; 
+    background: #DF4949;
+}
+
+.file {
+    fill: #E27A3F; 
+    background: #E27A3F;
+}
+
+.registry { 
+    fill: #DF4949; 
+    background: #EFC94C;
+}
+
+.memory-section { 
+    fill: #beaed4; 
+    background:  #9B59B6;
+}
+
+.virtual-memory {
+    fill: #386cb0; 
+    background: #F495A3;
+}
+
+.ipc { 
+    fill: #45B29D; 
+    background: #45B29D;
+}
+
+.white-color{
+    fill:#F3F2F2;
+    background: #FFFFFF;
+}
+
+.grid .tick {
+  stroke: lightgrey;
+  opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.axis path {
+  fill: none;
+  stroke: #bbb;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  fill: #555;
+}
+
+.axis line {
+  stroke: #e7e7e7;
+  shape-rendering: crispEdges;
+}
+
+.axis .axis-label {
+  font-size: 14px;
+}
+
+.line {
+  fill: none;
+  stroke-width: 1.5px;
+}
+
+.dot {
+  /* consider the stroke-with the mouse detect radius? */
+  
+  stroke: transparent;
+  stroke-width: 10px;
+  cursor: pointer;
+}
+
+.dot:hover {
+  stroke: rgba(68, 127, 255, 0.3);
+}  
