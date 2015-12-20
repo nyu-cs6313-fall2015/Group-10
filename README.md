@@ -4,7 +4,7 @@
 
 ###link:
 
-A live demo can be found [here](http://nyu-cs6313-fall2015.github.io/Group-10/){:target="_blank"}.
+A live demo can be found <a href="http://nyu-cs6313-fall2015.github.io/Group-10/" target="_blank">here</a>.
 
 A video demo can be found [here]().
 
