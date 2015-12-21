@@ -1,15 +1,15 @@
 # Malware Visualization
 
+###Project Group Members: 
+
+Jay, Rahul, Shailesh
 
 
-###link:
 
-A live demo can be found <a href="http://nyu-cs6313-fall2015.github.io/Group-10/" target="_blank">here</a>.
+![Malware Visualization](/img/MalwareVis.png)
 
-A video demo can be found <a href="#" target="_blank">here</a>.
 
-The document for  this project can be found
-[here]().
+
 
 ###Project Summary:
 
@@ -25,9 +25,15 @@ The reports generated during analysis of malware consist of large number of API 
 When malware infects any system it makes many standard system calls. These call remains almost same with new versions of the malware. Thus we created visualization to see the pattern of malware activity and identify its family.
 
 
-![Malware Visualization](/img/MalwareVis.png)
+
+###link:
+
+A live demo can be found <a href="http://nyu-cs6313-fall2015.github.io/Group-10/" target="_blank">here</a>.
+
+A video demo can be found <a href="#" target="_blank">here</a>.
+
+The document for this project can be found [here]().
 
 
-###Project Group Members: 
 
-Jay, Rahul, Shailesh
+
